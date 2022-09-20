@@ -40,6 +40,6 @@ spec:
     spec:
       containers:
       - name: wil42
-        image: wil42/playgroung:v1
+        image: wil42/playgroung:v2
         ports:
         - containerPort: 8888
