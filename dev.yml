@@ -22,6 +22,7 @@ spec:
       protocol: TCP
   selector:
     app: dev
+  type: NodePort
 ---
 apiVersion: apps/v1
 kind: Deployment
