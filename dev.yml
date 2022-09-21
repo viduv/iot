@@ -40,6 +40,7 @@ spec:
     spec:
       containers:
       - name: wil42
-        image: wil42/playgroung:v2
+        image: wil42/playground:v2
+        imagePullPolicy: Always
         ports:
         - containerPort: 8888
