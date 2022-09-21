@@ -9,7 +9,7 @@ spec:
     service:
       name: dev
       port:
-        number: 80
+        number: 8888
 ---
 apiVersion: v1
 kind: Service
@@ -17,7 +17,7 @@ metadata:
   name: dev
 spec:
   ports:
-    - port: 80
+    - port: 8888
       protocol: TCP
   selector:
     app: dev
